@@ -1,0 +1,32 @@
+1. sign up to darksky.net
+
+	https://darksky.net/dev/account
+
+	copy the url on the screen, mine is
+	
+		https://api.darksky.net/forecast/c812906fa07aaaae12df823a354f1428/37.8267,-122.4233
+
+2. create a package.json file
+
+	npm init -y
+
+		the y tells npm to skip customizing the package.json
+
+3. install web3.js so you can connect to your smart contract and call functions from it
+
+	npm install web3
+
+4. install the request library so you can communicate with a weather api
+
+	npm install request --save
+
+
+5. change permissions of the shell script so you have permission to run it
+
+	chmod 755 run-update-weather-continuously.sh 
+
+6. ./run-update-weather-continuously.sh 
+
+10. run your shell script in the background
+	
+	nohup ./run-update-weather-continuously.sh > /dev/null 2>&1 &

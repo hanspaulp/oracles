@@ -1,0 +1,17 @@
+{
+  "name": "oracles",
+  "version": "1.0.0",
+  "main": "update-weather-in-smart-contract.js",
+  "dependencies": {
+    "request": "^2.88.0",
+    "web3": "github:ethereum/web3.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
